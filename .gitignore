@@ -22,3 +22,15 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+### production templates ###
+/src/main/resources/public/static*
+/src/main/resources/public/asset-manifest.json
+/src/main/resources/templates/assets/
+/src/main/resources/templates/index.mustache
+/src/main/resources/templates/index.html
+
+### Gradle template
+.gradle
+**/build/
+!src/**/build/
